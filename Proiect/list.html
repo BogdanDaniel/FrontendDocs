@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css"  href ="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="scripts/app.js"></script>
+</head>
+<body>
+<h1>Employees list page </h1>
+<div class = "panel panel-default">
+    <div class="panel-heading description">
+        Employees list
+    </div>
+    <div class="panel-body">
+        <div>
+            <p>
+                <button onclick="showList()">ShowList</button>
+            </p>
+        </div>
+        <div id="listcontainer">
+        </div>
+    </div>
+</div>
+<div class="panel-body">
+    <div>
+        <p>
+            <button onclick="sum()">Suma</button>
+        </p>
+        <p>
+            <button onclick="conv()">ConvertEuro</button>
+        </p>
+    </div>
+    <div id="sumacontainer"></div>
+    <div>
+        <a href="index.html">Back to HOME </a>
+    </div>
+<div class = "panel panel-default">
+    <div class="panel-heading description">
+        Add employee</div>
+    <form>
+    <div class="panel-body">
+        <p>First name: <input type="text" id="firstName"/></p>
+        <p>Last name: <input type="text" id="lastName"/></p>
+        <p>phone: <input type="text" id="phone"/></p>
+        <p>Salary: <input type="number" id="salary"/></p>
+        <p> <button onclick="addEm()">Add employee </button>
+        </p>
+        <p> <button onclick="delEm()">Del empl </button>
+        </p>
+    </div>
+</div>
+    </form>
+    <div class="panel-body">
+        <p>Sort by: <input type="number" id="sort"/></p>
+        <p> <button onclick="SORT()">SORT </button>
+    </div>
+    <form>
+    </form>
+
+
+
+
+
+
+
+</body>
+</html>
